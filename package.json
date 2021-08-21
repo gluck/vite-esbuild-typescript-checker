@@ -8,7 +8,11 @@
     "build": "tsc --build src/tsconfig.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [
+    "Vite",
+    "Esbuild",
+    "typescript"
+  ],
   "author": "time4dev <time4ps@gmail.com> based on Piotr Oleś <piotrek.oles@gmail.com> https://github.com/TypeStrong/fork-ts-checker-webpack-plugin",
   "dependencies": {
     "@babel/code-frame": "^7.14.5",
