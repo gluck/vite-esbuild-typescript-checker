@@ -1,6 +1,6 @@
 {
   "name": "fork-ts-checker-worker",
-  "version": "0.0.1-alpha",
+  "version": "0.0.1-alpha.1",
   "description": "Worker for plugins vite and esbuild",
   "license": "MIT",
   "main": "dist/index.js",
@@ -10,28 +10,26 @@
   },
   "keywords": [],
   "author": "time4dev <time4ps@gmail.com> based on Piotr Oleś <piotrek.oles@gmail.com> https://github.com/TypeStrong/fork-ts-checker-webpack-plugin",
-  "devDependencies": {
-
-  },
   "dependencies": {
     "@babel/code-frame": "^7.14.5",
     "@types/babel__code-frame": "^7.0.3",
     "@types/lodash": "^4.14.172",
     "@types/node": "^16.4.13",
     "@types/webpack": "^5.28.0",
+    "@vue/compiler-sfc": "^3.1.5",
     "chalk": "^4.1.2",
-    "fs": "^0.0.1-security",
-    "moment": "^2.29.1",
-    "path": "^0.12.7",
-    "typescript": "^4.3.5",
-    "vite": "^2.4.4",
     "eslint": "^7.32.0",
     "eslint-config-google": "^0.14.0",
     "eslint-plugin-vue": "^7.15.0",
     "fork-ts-checker-webpack-plugin": "^6.3.1",
+    "fs": "^0.0.1-security",
     "lodash": "^4.17.21",
+    "moment": "^2.29.1",
+    "path": "^0.12.7",
     "tapable": "^2.2.0",
     "ts-node": "^10.1.0",
-    "@vue/compiler-sfc": "^3.1.5"
-  }
+    "typescript": "^4.3.5",
+    "vite": "^2.4.4"
+  },
+  "packageManager": "yarn@3.0.1"
 }

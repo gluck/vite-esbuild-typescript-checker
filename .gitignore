@@ -10,3 +10,4 @@ example/esbuild2entry/dist/*
 
 example/vite/node_modules
 example/vite/dist/*
+.yarn
