@@ -1,7 +1,7 @@
 {
   "name": "fork-ts-checker-worker",
   "version": "0.0.1-alpha.2",
-  "description": "Worker for plugins vite and esbuild",
+  "description": "Checker typescript vite and esbuild",
   "license": "MIT",
   "main": "dist/index.js",
   "scripts": {
