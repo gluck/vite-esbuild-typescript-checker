@@ -31,28 +31,28 @@ pnpm add -D fork-ts-checker-worker
 
 All plugin settings are suitable from the webpack version, follow the link https://github.com/TypeStrong/fork-ts-checker-webpack-plugin.
 
-##Playground:
+## Playground:
 Examples of using the plugin are located in the "example" folder.
-###EsBuild
+### EsBuild
 ```sh
 cd example/esbuild
 pnpm install
 pnpm start
 ```
-###EsBuild multiple entry points
+### EsBuild multiple entry points
 ```sh
 cd example/esbuild2entry
 pnpm install
 pnpm start
 ```
-###Vite
+### Vite
 ```sh
 cd example/vite
 pnpm install
 pnpm dev | pnpm build
 ```
 
-##Vite example
+## Vite example
 ```ts
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
@@ -76,7 +76,7 @@ export default defineConfig({
     })]
 })
 ```
-##Esbuild example
+## Esbuild example
 ```js
 const esbuild = require('esbuild');
 const {nodeExternalsPlugin} = require('esbuild-node-externals');
@@ -112,10 +112,10 @@ esbuild.build({
 
 ```
 
-##Credits
+## Credits
 
 I express my great gratitude to TypeStrong, the author of the plugin for webpack (https://github.com/TypeStrong/fork-ts-checker-webpack-plugin). 
 
-##License
+## License
 
 MIT License
