@@ -1,0 +1,12 @@
+node_modules
+test
+.idea
+
+example/esbuild/node_modules
+example/esbuild/dist/*
+
+example/esbuild2entry/node_modules
+example/esbuild2entry/dist/*
+
+example/vite/node_modules
+example/vite/dist/*

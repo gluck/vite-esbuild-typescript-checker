@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "typeRoots": [
+            "../node_modules/@types"
+        ],
+        "outDir": "../dist",
+        "target": "esnext",
+        "module": "CommonJS",
+        "moduleResolution": "node",
+        "strict": true,
+        "jsx": "preserve",
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "lib": [
+            "esnext"
+        ]
+    },
+    "include": [
+        "./**/*.ts",
+        "./**/*.d.ts",
+        "./**/*.tsx"
+    ]
+}

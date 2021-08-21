@@ -1,0 +1,28 @@
+{
+    "compileOnSave": false,
+    "exclude": [
+        "node_modules"
+    ],
+    "compilerOptions": {
+        "typeRoots": ["../node_modules/@types"],
+        "noImplicitAny": true,
+        "skipLibCheck": true,
+        "esModuleInterop": true,
+        "sourceMap": false,
+        "removeComments": true,
+        "noUnusedLocals": false,
+        "noUnusedParameters": false,
+        "noImplicitReturns": true,
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "allowJs": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "module": "ESNext",
+        "target": "ESNext",
+        "rootDir": ".",
+        "allowSyntheticDefaultImports": true,
+        "composite": true,
+        "baseUrl": "."
+    }
+}
