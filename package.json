@@ -1,12 +1,20 @@
 {
   "name": "fork-ts-checker-worker",
-  "version": "0.0.1-alpha.3",
+  "version": "0.0.1-alpha.4",
   "description": "Checker typescript vite and esbuild",
   "license": "MIT",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc --build src/tsconfig.json",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "homepage": "https://github.com/time4dev/fork-ts-checker-worker/blob/main/README.md",
+  "bugs": {
+    "url": "https://github.com/time4dev/fork-ts-checker-worker/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/time4dev/fork-ts-checker-worker.git"
   },
   "keywords": [
     "Vite",
