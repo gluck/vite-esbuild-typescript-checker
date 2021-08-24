@@ -6,6 +6,7 @@ specifiers:
   '@types/lodash': ^4.14.172
   '@types/node': ^16.7.1
   '@types/webpack': ^5.28.0
+  '@vitejs/plugin-vue': ^1.5.0
   '@vue/compiler-sfc': ^3.2.4
   chalk: ^4.1.2
   esbuild: ^0.12.22
@@ -28,6 +29,7 @@ dependencies:
   '@types/lodash': 4.14.172
   '@types/node': 16.7.1
   '@types/webpack': 5.28.0
+  '@vitejs/plugin-vue': 1.5.0_@vue+compiler-sfc@3.2.4
   '@vue/compiler-sfc': 3.2.4
   chalk: 4.1.2
   esbuild: 0.12.22
@@ -197,6 +199,15 @@ packages:
       webpack: 5.51.1
     transitivePeerDependencies:
       - webpack-cli
+    dev: false
+
+  /@vitejs/plugin-vue/1.5.0_@vue+compiler-sfc@3.2.4:
+    resolution: {integrity: sha512-DwTvr9J/SSYHsrTiYTWAaUn0OnqgdINlfuhtxpWHcJVUtxGt07zZylV/ITjfeYgdcUCi0oLD+n9lwLnxlYSGtA==}
+    engines: {node: '>=12.0.0'}
+    peerDependencies:
+      '@vue/compiler-sfc': ^3.2.0
+    dependencies:
+      '@vue/compiler-sfc': 3.2.4
     dev: false
 
   /@vue/compiler-core/3.2.4:

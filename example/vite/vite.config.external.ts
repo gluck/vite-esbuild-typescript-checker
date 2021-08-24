@@ -6,6 +6,7 @@ export default defineConfig({
     plugins: [vue(), VitePlugin({
         checker: {
             typescript: {
+                configFile: 'example/vite/tsconfig.json',
                 extensions: {
                     vue: {
                         enabled: true,
