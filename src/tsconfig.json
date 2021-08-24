@@ -3,6 +3,7 @@
         "typeRoots": [
             "../node_modules/@types"
         ],
+        "declaration": true,
         "outDir": "../dist",
         "target": "esnext",
         "module": "CommonJS",
