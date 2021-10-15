@@ -1,5 +1,5 @@
 {
-  "name": "fork-ts-checker-worker",
+  "name": "vite-esbuild-typescript-checker",
   "version": "0.0.1-alpha.6",
   "description": "Checker typescript vite and esbuild",
   "license": "MIT",
