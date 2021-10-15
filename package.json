@@ -8,13 +8,13 @@
     "build": "tsc --build src/tsconfig.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "homepage": "https://github.com/time4dev/fork-ts-checker-worker/blob/main/README.md",
+  "homepage": "https://github.com/time4dev/vite-esbuild-typescript-checker/blob/main/README.md",
   "bugs": {
-    "url": "https://github.com/time4dev/fork-ts-checker-worker/issues"
+    "url": "https://github.com/time4dev/vite-esbuild-typescript-checker/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/time4dev/fork-ts-checker-worker.git"
+    "url": "git+https://github.com/time4dev/vite-esbuild-typescript-checker.git"
   },
   "keywords": [
     "Vite",

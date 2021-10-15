@@ -20,13 +20,13 @@ This plugin requires minimum **Node.js 10**, **Vite 2**, **EsBuild 0.12,** **Web
 
 ```sh
 # with npm
-npm install --save-dev fork-ts-checker-worker
+npm install --save-dev vite-esbuild-typescript-checker
 
 # with yarn
-yarn add --dev fork-ts-checker-worker
+yarn add --dev vite-esbuild-typescript-checker
 
 # with pnpm
-pnpm add -D fork-ts-checker-worker
+pnpm add -D vite-esbuild-typescript-checker
 ```
 
 All plugin settings are suitable from the webpack version, follow the link https://github.com/TypeStrong/fork-ts-checker-webpack-plugin.
@@ -56,7 +56,7 @@ pnpm dev | pnpm build
 ```ts
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
-import { VitePlugin }  from 'fork-ts-checker-worker';
+import { VitePlugin }  from 'vite-esbuild-typescript-checker';
 
 export default defineConfig({
     plugins: [vue(), VitePlugin({
@@ -80,7 +80,7 @@ export default defineConfig({
 ```js
 const esbuild = require('esbuild');
 const {nodeExternalsPlugin} = require('esbuild-node-externals');
-const {EsbuildPlugin} = require('fork-ts-checker-worker');
+const {EsbuildPlugin} = require('vite-esbuild-typescript-checker');
 
 esbuild.build({
     tsconfig: './src/tsconfig.json',
