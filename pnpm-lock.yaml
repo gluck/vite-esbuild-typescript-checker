@@ -14,7 +14,6 @@ specifiers:
   eslint-config-google: ^0.14.0
   eslint-plugin-vue: ^7.16.0
   fork-ts-checker-webpack-plugin: ^6.3.2
-  fs: ^0.0.1-security
   lodash: ^4.17.21
   moment: ^2.29.1
   path: ^0.12.7
@@ -37,7 +36,6 @@ dependencies:
   eslint-config-google: 0.14.0_eslint@7.32.0
   eslint-plugin-vue: 7.16.0_eslint@7.32.0
   fork-ts-checker-webpack-plugin: 6.3.2
-  fs: 0.0.1-security
   lodash: 4.17.21
   moment: 2.29.1
   path: 0.12.7
@@ -975,14 +973,11 @@ packages:
     resolution: {integrity: sha1-FQStJSMVjKpA20onh8sBQRmU6k8=}
     dev: false
 
-  /fs/0.0.1-security:
-    resolution: {integrity: sha1-invTcYa23d84E/I4WLV+yq9eQdQ=}
-    dev: false
-
   /fsevents/2.3.2:
     resolution: {integrity: sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==}
     engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
     os: [darwin]
+    requiresBuild: true
     dev: false
     optional: true
 

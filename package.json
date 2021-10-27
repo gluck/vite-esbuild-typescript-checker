@@ -36,7 +36,6 @@
     "eslint-config-google": "^0.14.0",
     "eslint-plugin-vue": "^7.16.0",
     "fork-ts-checker-webpack-plugin": "^6.3.2",
-    "fs": "^0.0.1-security",
     "lodash": "^4.17.21",
     "moment": "^2.29.1",
     "path": "^0.12.7",
